@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <?php include 'cabecalho.html';?>
+        
+        
+        <form action="reserva.php" method="post">
+		<h4>Seus dados pessoais</h4>
+
+		<label>Nome:</label>
+		<input type="text" name="txtNome" placeholder="Insira seu nome" required>
+
+		<label>Sobrenome:</label>
+		<input type="text" name="txtSobrenome" placeholder="Insira seu sobrenome" required>
+
+		<label>Idade:</label>
+		<input type="number" name="txtIdade" placeholder="Insira sua idade" required>
+
+		<label>Estado:</label>
+		<select value='' data-default=''>
+			<option>BA</option>
+			<option selected>RJ</option>
+			<option>SP</option>
+		</select>
+                
+                <label>Observações</label>
+                <textarea></textarea>
+
+		<h4>Dados da viagem</h4>
+
+		<label>Tipo de passagem:</label>
+		<input type="radio" name="txtTipo">Ida
+		<input type="radio" name="txtTipo">Ida e volta
+
+		<label>Lugares a ir:</label>
+		<input class="chbox" type="checkbox" name="txtLugar">Praça da Irene
+		<input class="chbox" type="checkbox" name="txtLugar">Juazeiro
+		<input class="chbox" type="checkbox" name="txtLugar">Golden State
+		<input class="chbox" type="checkbox" name="txtLugar">Praia da Barra
+		<input class="chbox" type="checkbox" name="txtLugar">Cabana Marajá
+		
+		<h4>Finalização</h4>
+
+		<input type="submit" value="Fazer reserva">
+	</form>
+        
+        
+        <?php include 'rodape.html';?>
+    </body>
+</html>
