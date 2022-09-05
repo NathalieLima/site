@@ -1,0 +1,5 @@
+<?php
+
+echo "Parabéns! Sua reserva foi feita.";
+        
+
