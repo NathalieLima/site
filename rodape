@@ -1,0 +1,35 @@
+<hr>
+
+<h3>Redes sociais</h3>
+
+<a href="https://web.whatsapp.com/"><button>
+        <img src="images/wpp.jpg" 
+                alt="Ícone do WhatsApp" 
+                height="100">
+</button></a>
+<a href="https://facebook.com/"><button type="button">
+        <img src="images/face.jpg" 
+                alt="Ícone do Facebook" 
+                height="100">
+</button></a>
+<a href="https://instagram.com/"><button type="button">
+        <img src="images/insta.png" 
+                alt="Ícone do Instagram" 
+                height="100">
+</button></a>
+<a href="https://twitter.com/"><button type="button">
+        <img src="images/twitter.jpg" 
+                alt="Ícone do Twitter" 
+                height="100">
+</button></a>
+<a href="https://br.linkedin.com/"><button type="button">
+        <img src="images/din.jpg" 
+                alt="Ícone do LinkedIn" 
+                height="100">
+</button></a>
+
+<p>Site criado por Náthalie Lima Bomfim</p>
+
+<p>Ilhéus - Bahia</p>
+
+<p>01 de setembro de 2022</p>
