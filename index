@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meus primeiros passos</title>
+        <link rel="stylesheet" href="view/style.css">
+        
+	<script>
+		alert("Bem-vindo!!");
+	</script>
+</head>
+<body>
+
+	<?php include 'cabecalho.html';?>
+
+	<h1>HappyTrip</h1>
+	<h2>Agência de Viagens</h2>
+
+	<p>Seja bem-vindo(a) ao site da melhor agência de viagens do Brasil, a HappyTrip!</p>
+        
+        <pre>Teste</pre>
+        
+        <p>Viajar é descobrir novos destinos, mesmo em lugares que já os tenha visitado, pois não importa para onde se viaje: 
+        há sempre algo novo a ser explorado. Ao desembarcar em um destino turístico, seja no Brasil, ou no exterior, 
+        procure descobrir orientações e encantos até então não experimentados.</p>
+        <p>Viva seus sonhos! Tenha novas experiências! Expanda seus horizontes! Viaje!</p>
+       
+	<p>Primeiramente, é preciso que você saiba de algumas coisas, como:</p>
+	
+        <ul>
+		<li>A viagem durará 10 dias;</li>
+		<li>Não há reembolso;</li>
+		<li>Você poderá andar pela cidade;</li>
+		<li>Terá uma parada noturna.</li>
+	</ul>
+
+        <ol>
+            <li>Boa noite;</li>
+            <li>Banana.</li>
+        </ol>
+        
+        <audio></audio>
+        <embed src="audio/videoplayback.mp4">
+
+	<h3>Tabela de preços</h3>
+	
+	<table border="5">
+            <caption>Primeiros meses de 2022</caption>
+		<tr>
+			<th>&nbsp;</th>
+			<th>Janeiro</th>
+			<th>Fevereiro</th>
+			<th>Março</th>
+			<th>Abril</th>
+		</tr>
+		<tr>
+			<th>Quinzena 1</th>
+			<td>1.500</td>
+			<td>2.000</td>
+			<td>3.000</td>
+			<td>1.000</td>
+		</tr>
+		<tr>
+			<th>Quinzena 2</th>
+			<td>2.500</td>
+			<td>1.000</td>
+			<td>4.000</td>
+			<td>500</td>
+		</tr>
+	</table>
+
+	<h3>Fotos do local</h3>
+        
+	<img class="galery" src="images/cali1.jpg" alt="Uma imagem da Califórnia">
+	<img class="galery" src="images/cali2.jpg" alt="Uma imagem da Califórnia">
+	<img class="galery" src="images/cali3.jpg" alt="Uma imagem da Califórnia">
+	<img class="galery" src="images/cali4.jpg" alt="Uma imagem da Califórnia">
+
+        <h3>Localização geográfica</h3>
+        
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509916.957423575!2d-123.79759793610344!3d37.18430344877116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalif%C3%B3rnia%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1662399191112!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">       
+        </iframe>
+        
+	<h3>Reserva</h3>
+        
+	<p>Não perca esta oportunidade incrível! 
+            Faça já sua reserva para a viagem que vai mudar a sua vida.</p>
+
+	
+        <p>Para fazer sua reserva, clique aqui:</p>
+        
+        <a href="formulario.php"><button>RESERVE JÁ!</button></a>
+
+	<?php include 'rodape.html'; ?>
+        
+        
+        <div align="right">
+            <img src="images/praia.jpg">
+        </div>
+</body>
+</html>
